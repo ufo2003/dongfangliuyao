@@ -1,0 +1,529 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 531
+  ClientWidth = 326
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Size.Width = 326.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      Align = Client
+      Size.Width = 326.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = #19996#26041#20845#29243
+      TabOrder = 0
+    end
+  end
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 326.000000000000000000
+    Size.Height = 491.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object TabControl1: TTabControl
+      Align = Client
+      Size.Width = 326.000000000000000000
+      Size.Height = 491.000000000000000000
+      Size.PlatformDefault = False
+      TabIndex = 0
+      TabOrder = 0
+      TabPosition = None
+      Sizes = (
+        326s
+        491s
+        326s
+        491s
+        326s
+        491s
+        326s
+        491s
+        326s
+        491s)
+      object TabItem1: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = True
+        Size.Width = 8.000000000000000000
+        Size.Height = 8.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = #30331#24405
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        object Edit1: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 0
+          KeyboardType = NumberPad
+          Position.X = 104.000000000000000000
+          Position.Y = 37.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Edit2: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 3
+          Password = True
+          Position.X = 104.000000000000000000
+          Position.Y = 85.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Button1: TButton
+          Position.X = 112.000000000000000000
+          Position.Y = 125.000000000000000000
+          Size.Width = 113.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          Text = #30331#24405
+          OnClick = Button1Click
+        end
+        object SpeedButton1: TSpeedButton
+          Anchors = [akTop, akRight]
+          Position.X = 208.000000000000000000
+          Position.Y = 221.000000000000000000
+          Size.Width = 89.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Text = #27880#20876#26032#29992#25143
+          TextSettings.HorzAlign = Leading
+          OnClick = SpeedButton1Click
+        end
+        object SpeedButton2: TSpeedButton
+          Anchors = [akTop, akRight]
+          Position.X = 208.000000000000000000
+          Position.Y = 261.000000000000000000
+          Size.Width = 89.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Text = #25214#22238#23494#30721
+          TextSettings.HorzAlign = Leading
+          OnClick = SpeedButton2Click
+        end
+        object Button6: TButton
+          Position.X = 112.000000000000000000
+          Position.Y = 176.000000000000000000
+          Size.Width = 113.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          Text = #21333#26426#20351#29992
+          OnClick = Button6Click
+        end
+        object Label3: TLabel
+          AutoSize = True
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 8.000000000000000000
+          Position.Y = 37.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = #25163#26426#21495'/'#29992#25143#21517
+          TabOrder = 2
+        end
+        object Label4: TLabel
+          AutoSize = True
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 8.000000000000000000
+          Position.Y = 85.000000000000000000
+          Size.Width = 73.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = #23494#30721
+          TabOrder = 1
+        end
+      end
+      object TabItem2: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 8.000000000000000000
+        Size.Height = 8.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = #27880#20876
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        object Edit3: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 3
+          KeyboardType = NumberPad
+          Position.X = 120.000000000000000000
+          Position.Y = 45.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label5: TLabel
+          AutoSize = True
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 8.000000000000000000
+          Position.Y = 77.000000000000000000
+          Size.Width = 73.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = #23494#30721
+          TabOrder = 1
+        end
+        object Edit4: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 4
+          Password = True
+          Position.X = 120.000000000000000000
+          Position.Y = 77.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Button2: TButton
+          Position.X = 120.000000000000000000
+          Position.Y = 181.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = #31435#21363#27880#20876
+          OnClick = Button2Click
+        end
+        object SpeedButton3: TSpeedButton
+          Position.X = 16.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 121.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Text = '<-- '#36820#22238#30331#24405#39029
+          TextSettings.HorzAlign = Leading
+          OnClick = SpeedButton3Click
+        end
+        object Label6: TLabel
+          AutoSize = True
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 8.000000000000000000
+          Position.Y = 109.000000000000000000
+          Size.Width = 89.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = #37325#22797#23494#30721
+          TabOrder = 0
+        end
+        object Edit5: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 2
+          Password = True
+          Position.X = 120.000000000000000000
+          Position.Y = 109.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label7: TLabel
+          AutoSize = True
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 8.000000000000000000
+          Position.Y = 141.000000000000000000
+          Size.Width = 81.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = #25163#26426#21495
+          TabOrder = 8
+        end
+        object Edit6: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 9
+          KeyboardType = NumberPad
+          Position.X = 120.000000000000000000
+          Position.Y = 141.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label2: TLabel
+          AutoSize = True
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 8.000000000000000000
+          Position.Y = 45.000000000000000000
+          Size.Width = 113.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = #25163#26426#21495'/'#29992#25143#21517
+          TabOrder = 7
+        end
+      end
+      object TabItem3: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 8.000000000000000000
+        Size.Height = 8.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = #25214#22238#23494#30721
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        object Label8: TLabel
+          AutoSize = True
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 80.000000000000000000
+          Position.Y = 45.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = #35831#36755#20837#25163#26426#21495
+          TabOrder = 0
+        end
+        object Edit7: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 4
+          KeyboardType = NumberPad
+          Position.X = 80.000000000000000000
+          Position.Y = 77.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Button3: TButton
+          Position.X = 80.000000000000000000
+          Position.Y = 117.000000000000000000
+          Size.Width = 145.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = #21457#36865#39564#35777#30701#20449
+          OnClick = Button3Click
+        end
+        object SpeedButton4: TSpeedButton
+          Position.X = 8.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 121.000000000000000000
+          Size.Height = 27.000000000000000000
+          Size.PlatformDefault = False
+          Text = '<-- '#36820#22238#30331#24405#39029
+          TextSettings.HorzAlign = Leading
+          OnClick = SpeedButton3Click
+        end
+      end
+      object TabItem4: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 8.000000000000000000
+        Size.Height = 8.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = #25913#23494'1'
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        object Label9: TLabel
+          AutoSize = True
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 8.000000000000000000
+          Position.Y = 33.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = #35831#36755#20837#25910#21040#30340#39564#35777#30721
+          TabOrder = 0
+        end
+        object Edit8: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 4
+          KeyboardType = NumberPad
+          Position.X = 96.000000000000000000
+          Position.Y = 61.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = #39564#35777#30721
+        end
+        object Label10: TLabel
+          AutoSize = True
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 8.000000000000000000
+          Position.Y = 96.000000000000000000
+          Size.Width = 73.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = #26032#23494#30721
+          TabOrder = 2
+        end
+        object Edit9: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 5
+          Password = True
+          Position.X = 96.000000000000000000
+          Position.Y = 93.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = #26032#23494#30721
+        end
+        object Label11: TLabel
+          AutoSize = True
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 8.000000000000000000
+          Position.Y = 125.000000000000000000
+          Size.Width = 89.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = #37325#22797#26032#23494#30721
+          TabOrder = 1
+        end
+        object Edit10: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 3
+          Password = True
+          Position.X = 96.000000000000000000
+          Position.Y = 125.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = #37325#22797#23494#30721
+        end
+        object Button4: TButton
+          Position.X = 112.000000000000000000
+          Position.Y = 160.000000000000000000
+          Size.Width = 105.000000000000000000
+          Size.Height = 27.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          Text = #30830#23450
+          OnClick = Button4Click
+        end
+        object SpeedButton5: TSpeedButton
+          Position.X = 8.000000000000000000
+          Size.Width = 305.000000000000000000
+          Size.Height = 27.000000000000000000
+          Size.PlatformDefault = False
+          Text = '<-- '#22914#19977#20998#38047#20869#27809#25910#21040#30701#20449#65292#36820#22238#21069#39029
+          TextSettings.HorzAlign = Leading
+          OnClick = SpeedButton5Click
+        end
+      end
+      object TabItem5: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 8.000000000000000000
+        Size.Height = 8.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = #25913#23494'2'
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        object Label12: TLabel
+          AutoSize = True
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 8.000000000000000000
+          Position.Y = 69.000000000000000000
+          Size.Width = 81.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = #26032#23494#30721
+          TabOrder = 2
+        end
+        object Edit11: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 5
+          Password = True
+          Position.X = 96.000000000000000000
+          Position.Y = 69.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label13: TLabel
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 8.000000000000000000
+          Position.Y = 101.000000000000000000
+          Size.Width = 89.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = #37325#22797#26032#23494#30721
+          TabOrder = 1
+        end
+        object Edit12: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 3
+          Password = True
+          Position.X = 96.000000000000000000
+          Position.Y = 101.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Button5: TButton
+          Position.X = 120.000000000000000000
+          Position.Y = 136.000000000000000000
+          Size.Width = 105.000000000000000000
+          Size.Height = 27.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          Text = #30830#23450
+          OnClick = Button5Click
+        end
+        object SpeedButton6: TSpeedButton
+          Position.X = 8.000000000000000000
+          Position.Y = 2.000000000000000000
+          Text = #20851#38381' X'
+          OnClick = SpeedButton6Click
+        end
+        object Edit13: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 8
+          Password = True
+          Position.X = 96.000000000000000000
+          Position.Y = 37.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label14: TLabel
+          AutoSize = True
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 8.000000000000000000
+          Position.Y = 37.000000000000000000
+          Size.Width = 73.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = #21407#23494#30721
+          TabOrder = 9
+        end
+      end
+    end
+  end
+end
